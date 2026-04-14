@@ -1,0 +1,7 @@
+target/
+pkg/
+.git/
+mydocs/
+reference/
+demo/bundle.js.map
+*.wasm

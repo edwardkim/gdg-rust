@@ -1,0 +1,9 @@
+target/
+pkg/
+output/
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+.cache
+demo/bundle.js.map

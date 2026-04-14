@@ -1,0 +1,7 @@
+services:
+  wasm:
+    build:
+      context: .
+      dockerfile: Dockerfile.wasm
+    volumes:
+      - ./pkg:/app/pkg

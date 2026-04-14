@@ -1,0 +1,61 @@
+{
+    "name": "@glideapps/glide-data-grid-source",
+    "version": "6.0.4-alpha25",
+    "description": "Useful data source hooks for Glide Data Grid",
+    "sideEffects": false,
+    "type": "module",
+    "browser": "dist/esm/index.js",
+    "main": "dist/cjs/index.js",
+    "module": "dist/esm/index.js",
+    "types": "dist/dts/index.d.ts",
+    "exports": {
+        "types": "./dist/dts/index.d.ts",
+        "import": "./dist/esm/index.js",
+        "require": "./dist/cjs/index.js"
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "./build.sh",
+        "lint": "eslint src --ext .ts,.tsx",
+        "test": "vitest"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/glideapps/glide-data-grid.git",
+        "directory": "packages/source"
+    },
+    "homepage": "https://github.com/glideapps/glide-data-grid/tree/main/packages/source",
+    "author": "Glide",
+    "license": "MIT",
+    "keywords": [
+        "react",
+        "datagrid",
+        "data-grid",
+        "editor",
+        "reactjs",
+        "scrolling",
+        "data",
+        "table",
+        "cell",
+        "canvas"
+    ],
+    "dependencies": {
+        "@glideapps/glide-data-grid": "6.0.4-alpha25"
+    },
+    "peerDependencies": {
+        "lodash": "^4.17.19",
+        "react": "^16.12.0 || 17.x || 18.x || 19.x",
+        "react-dom": "^16.12.0 || 17.x || 18.x || 19.x"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.27.2",
+        "eslint": "^8.57.1",
+        "eslint-plugin-import": "^2.31.0",
+        "eslint-plugin-react": "^7.37.5",
+        "eslint-plugin-react-hooks": "^5.2.0",
+        "react-resize-detector": "^12.1.0",
+        "tsc-esm-fix": "^3.1.2"
+    }
+}

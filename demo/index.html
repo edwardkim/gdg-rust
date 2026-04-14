@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Render POC - Rust/WASM</title>
+    <style>
+        body {
+            font-family: Inter, Roboto, sans-serif;
+            margin: 20px;
+            background: #f5f5f5;
+        }
+        h1 { font-size: 18px; color: #313139; }
+        canvas {
+            border: 1px solid #ddd;
+            background: #fff;
+            cursor: default;
+        }
+        #info {
+            margin-top: 12px;
+            padding: 8px 12px;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 13px;
+            color: #313139;
+            min-height: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Glide Data Grid - Rust/WASM POC</h1>
+    <canvas id="grid" style="width:740px; height:500px;"></canvas>
+    <div id="scroll-info" style="margin-top:8px; font-size:12px; color:#737383;"></div>
+    <div id="info">Click a cell to test hitTest... (mouse wheel to scroll)</div>
+    <script type="module" src="bundle.js"></script>
+</body>
+</html>

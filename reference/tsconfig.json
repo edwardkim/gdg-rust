@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "composite": true,
+        "jsx": "react",
+        "moduleResolution": "Node16", // make node-16
+        "module": "Node16",
+        "noImplicitAny": true,
+        "noUnusedLocals": true,
+        "skipLibCheck": true,
+        "verbatimModuleSyntax": true,
+        "noUnusedParameters": true,
+        "strict": true,
+        "target": "ES2022", // es2022
+        "types": ["vitest", "node"]
+    }
+}

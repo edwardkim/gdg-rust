@@ -1,0 +1,7 @@
+[workspace]
+members = ["crates/grid-render"]
+resolver = "2"
+
+[profile.release]
+opt-level = "s"
+lto = true
