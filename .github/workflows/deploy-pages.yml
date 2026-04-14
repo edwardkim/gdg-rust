@@ -3,6 +3,10 @@ name: Deploy Demo to GitHub Pages
 on:
   push:
     branches: [main]
+    paths-ignore:
+      - 'reference/**'
+      - 'mydocs/**'
+      - '*.md'
   workflow_dispatch:
 
 permissions:
