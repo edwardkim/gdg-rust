@@ -61,7 +61,7 @@ jobs:
           cp pkg/grid_render.js pkg/grid_render_bg.wasm _site/pkg/
 
       - name: Upload Pages artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
 
   deploy:
     environment:
